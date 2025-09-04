@@ -166,7 +166,7 @@ contract ProofOfYou {
     /**
      * @dev Checks if an address is an authorized verifier
      * @param _verifier Address to check
-     * @return Boolean indicating if the address is an authorized verifier
+     * @return Boolean indicating if the address is an authorized verifier updated
      */
     function isAuthorizedVerifier(address _verifier) external view returns (bool) {
         return authorizedVerifiers[_verifier];
